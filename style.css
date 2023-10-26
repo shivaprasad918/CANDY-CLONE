@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    letter-spacing: 5px;
+    color: #b7b7b7;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.75rem;
+    /*------mistake font size------*/
+}
+
+a:hover{
+    color: red;
+    transition: 1s;
+}
+@media screen and (max-width: 1365px) {
+    .kopiko {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .kopiko {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .kopiko {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 567px) {
+    .kopiko {
+        font-size: 26px;
+    }
+}
+
+p{
+    letter-spacing: 3px;
+    margin-top: -8px;
+}
+.navbar-nav .nav-link {
+    color: #b7b7b7;
+    letter-spacing: 2px;
+    word-spacing: 0rem;
+}
+ .navbar-nav .nav-link,
+  .navbar-nav .nav-link.active {
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.navbar-nav .nav-link:hover{
+    color: red;
+}
+.navbar-nav .nav-item:nth-child(2) .nav-link {
+    margin-right: 10px;
+}
+.navbar-nav .nav-item:nth-child(3) .nav-link {
+    margin-left: 5px; 
+}
+.dropdown-menu .dropdown-item{
+    font-size: 20px;
+    letter-spacing: 0;
+}
+.navbar{
+    border-top: 0.1px solid#b7b7b7;
+}
+.col-12 h1{
+    margin-top: 98px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-size: 2.625rem;
+}
+
+.hamburger p{
+    color: white;
+    display: inline;
+}
+.icon-h{
+    height: 24px;
+    width: 21px;
+    margin-top: -3px;
+}
+.packet-coffee-content{
+    width: 94%;
+    margin-left: 48px;
+}
+p{ 
+    color:#abb8c3;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+    letter-spacing: 0;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.last-content{
+    color:#abb8c3;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+    letter-spacing: 0;
+    word-spacing: 2px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.row-last-content{
+    width: 94%;
+    margin-left: 48px;
+}
+.link{
+    font-size: small;
+    color: white;
+    letter-spacing: 0;
+}
+.copy{
+    margin-top: 180px;
+}
+
